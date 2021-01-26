@@ -50,6 +50,7 @@ New Libraries: Dash, Tkinter, Quantstats.
 ### 5. Dashboard Visualization
 
 ![Dashboard](/Images/DemoDashboard-AAPL.mp4)
+![Dashboard_pic](/Images/dashboard_picture.jpg)
 
 ### 6. Understanding the Theory
 
