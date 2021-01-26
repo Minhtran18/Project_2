@@ -49,7 +49,7 @@ New Libraries: Dash, Tkinter, Quantstats.
 
 ### 5. Dashboard Visualization
 
-[Dashboard](C:\Users\rodig\Downloads\project_2\Images\DemoDashboard-AAPL.mp4)
+![Dashboard](/Images/DemoDashboard-AAPL.mp4)
 
 ### 6. Understanding the Theory
 
@@ -84,8 +84,14 @@ The Sharpe ratio indicates how well an equity investment performs in comparison 
 
 ### 6.2.3. Rolling Standard Deviation
 
+Standard deviation is the statistical measure of market volatility, measuring how widely prices are dispersed from the average price. If prices trade in a narrow trading range, the standard deviation will return a low value that indicates low volatility. A volatile stock has a high standard deviation, while the deviation of a stable blue-chip stock is usually rather low. 
+
+Rolling Standard Deviation is a metric calculated over the range of a shifting (rolling) window. The Annualized Standard Deviation is the standard deviation multiplied by the square root of the number of periods in one year (252 trading days).
+
+
 ### 6.2.4. Rolling EWM
 
+A weighted average is an average that has multiplying factors to give different weights to data at different positions in the sample window.
 
 ### 6.3. Algo Trading Strategy 
 
@@ -97,7 +103,10 @@ Using Moving Average of Stock closing price as a Criteria, the graph shows point
     
 ### 6.3.2.	Exponential Moving Average
 
-The exponential moving average is also referred to as the exponentially weighted moving average. It reacts more significantly to recent price changes than a simple moving average (SMA), which applies an equal weight to all observations in the period.
+The exponential weighted moving average reacts more significantly to recent price changes than a simple moving average (SMA), which applies an equal weight to all observations in the period. 
+
+It is used to highlight trends and illustrate the price trajectory of a stock.
+
     
 ### 6.3.3.	Bollinger Banda
 
@@ -113,20 +122,35 @@ A random forest is a meta estimator that fits a number of decision tree classifi
 
 ### 6.4.1.	LSTM RNN Predicted vs Actual Stock Price with Bollinger 
 
+Long Short-Term Memory (LSTM) Model to Predict Stock Prices are powerful in sequence prediction problems because they're able to store past information. 
+
 ### 6.4.2.	Predicted vs Actual Return
+
+Actual daily return (%) vs. predicted return.
+
+The graph is to visualize how the model is accurately with the actual daily return over the period.
+
 
 ### 6.4.3.	ARMA Forecast
 
 The Auto Regressive Moving Average (ARMA) model consists of two parts, an autoregressive (AR) part and a moving average (MA) part. The Auto Regressive part involves regressing the variable on its own lagging(past) values.
 
+The ARMA model uses past values to predict future stock price.
+
 ### 6.4.4.	ARIMA Forecast
 
-The Auto Regressive Integrated Moving Average (ARIMA) model is a famous and widely used forecasting method for time-series prediction. ARIMA models can capture a suite of different standard temporal structures in time-series data. The model is a measure of how many non-seasonal differences are needed to achieve stationarity.
+The Auto Regressive Integrated Moving Average (ARIMA) model is a famous and widely used forecasting method for time-series prediction. ARIMA models can capture a suite of different standard temporal structures in time-series data. The model is a measure of how many non-seasonal differences are needed to achieve stationarity. 
+
+The ARIMA model uses past values and error to predict future stock price.
 
 If no differencing is involved in the model, then it becomes simply an ARMA.
-    
+
 ### 6.4.5.	Volatility Forecast.
-    
+
+GARCH model is used to predict volatility of the stock price, based on the variance across the period. 
+
+Remember: HIGHER VOLATILITY = MORE RISK
+
 ### 7. Room for Improvement:
 
 * Adding more parameters to build better prediction model.
