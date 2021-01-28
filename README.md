@@ -163,15 +163,20 @@ Remember: HIGHER VOLATILITY = MORE RISK
 ### 8. Q&A Session 
 
 Q: What stock was used as an example?
+
 *A*: We used VISA Inc. (Ticker: V), but before you run the code you can choose a different ticker in the drop drown menu, according to YAHOO FINANCE.
 
 Q: How many models (algorithms) did the group use?
+
 *A*: we used 5 models: Random Forest, LSTM RNN, ARMA, ARIMA and GARCH.
 
 Q: What kind of problems did you get during the project?
+
 *A*: Our first attempt to plot the graph failed due to the fact that it has different scales, which we fixed using DASH app. This is how we later decided to present our dashboard.
+
 *DASH App is a data visualization software that transforms data from custom and standard objects into an interactive system of clickable charts that show real-time information.
 
 Q: Who is our target?
+
 *A*: This is a platform for Advanced (experienced) investors and/or portfolio managers, where the main idea is to decrease human judgment when trading. So it’s essentially a tool to help the trader to interpret data in order to maximize gain and minimize losses.
 
