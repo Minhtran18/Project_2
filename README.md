@@ -6,7 +6,7 @@
 
 *The project is for study propose only*
 
-[Project Presentation](https://github.com/Minhtran18/Project_2/blob/master/Presentation/Project%202%20proposal.pptx)
+[Project Presentation](https://github.com/Minhtran18/Project_2/tree/master/Presentation)
 
 ### Summary
 
